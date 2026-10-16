@@ -1,0 +1,41 @@
+{
+  "student": {
+    "student_id": "2A202602769",
+    "split_seed": 840,
+    "model_seed": 1195,
+    "v_ego": 12.0
+  },
+  "method": "Evaluate the five saved PercMLP+ checkpoints with the original models.l2_summary on the unchanged held-out split.",
+  "per_seed": [
+    {
+      "seed": 1195,
+      "all": 0.8203413486480713,
+      "brake_slice": 0.9958447813987732,
+      "slice_share": 0.04443026916090025
+    },
+    {
+      "seed": 1196,
+      "all": 0.8085793256759644,
+      "brake_slice": 0.9845386743545532,
+      "slice_share": 0.04443026916090025
+    },
+    {
+      "seed": 1197,
+      "all": 0.830565333366394,
+      "brake_slice": 0.9216157793998718,
+      "slice_share": 0.04443026916090025
+    },
+    {
+      "seed": 1198,
+      "all": 0.7963145971298218,
+      "brake_slice": 0.9541057348251343,
+      "slice_share": 0.04443026916090025
+    },
+    {
+      "seed": 1199,
+      "all": 0.7985032200813293,
+      "brake_slice": 0.95045405626297,
+      "slice_share": 0.04443026916090025
+    }
+  ]
+}

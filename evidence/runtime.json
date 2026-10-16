@@ -1,0 +1,50 @@
+{
+  "student": {
+    "student_id": "2A202602769",
+    "split_seed": 840,
+    "model_seed": 1195,
+    "v_ego": 12.0
+  },
+  "commands": [
+    "python -u -X utf8 run_all.py --student-id 2A202602769 --seeds 5",
+    "python -u -X utf8 run_all.py fix --student-id 2A202602769 --seeds 5"
+  ],
+  "execution_note": "Initial full run completed data through gate and was interrupted during fix before saving any PercMLP+ model. The unchanged official fix step was then rerun independently with the same student id and five seeds.",
+  "quick": false,
+  "model_seeds": [
+    1195,
+    1196,
+    1197,
+    1198,
+    1199
+  ],
+  "train_trajectories": 6727,
+  "test_trajectories": 2883,
+  "python": "3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.5.3",
+  "pandas": "3.0.6",
+  "matplotlib": "3.11.2",
+  "threads": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "dataset_bytes": 195380179,
+  "dataset_sha256": "0739657faf49edc3c59198748d7741fb589d3a90b946490fd295c4a5acf2d82f",
+  "source_files_sha256": {
+    "lab12/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "lab12/agents.py": "08cb7acc85347af506f7cca197161f24ec690be678f072724a5f4149eff0a777",
+    "lab12/augment.py": "3521ac810ecd9f44d4a562359774fb2dbfca2fcb7922922b234188a76058717d",
+    "lab12/config.py": "528a3da94fb89266b107afeae59f6666b7d79262f4e3404a8d646d7271e1ca00",
+    "lab12/data.py": "7587dd0bbda4c04d6a76e0a3b266e8aa560977264b4f02396d2d4632774dcf54",
+    "lab12/gate.py": "a14ec8f7c5342449494f79cad096844d399128c5b4286a08d8b8cc01d8b96141",
+    "lab12/models.py": "2c4f06f2f17dc9fd35620a50edd01463cc7dbd43057940795987b3a2e6e1f912",
+    "lab12/planners.py": "cd331327ee24e0f898b9d1229b2b9f9ff691e335af6f01ae550bf130c32c26cc",
+    "lab12/replay.py": "464207de934967c760b68be7a1eb6706a8948bb0ef7a41668b3cf3b94f3824fc",
+    "lab12/scenarios.py": "325ba92d7145aa2d178552e80c7d4cd2deea0d772f3aa1dbf0a472fd3bdc61a8",
+    "lab12/sim.py": "b5826938666f4b7081e586b562becdc90724772bf6554017cf5589957ded3efe",
+    "lab12/stats.py": "04f11969987a1140bde5aaa26d84f30c217e733d7f499ce41cad16ed5a129774",
+    "lab12/steps.py": "4abc223ebf61f6e4700ec0373dff95e4023ed4935769870bf7a224c93f68c32f"
+  }
+}
